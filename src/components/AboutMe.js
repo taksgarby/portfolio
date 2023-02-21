@@ -1,6 +1,9 @@
 import Card from 'react-bootstrap/Card';
 import './components.css';
 import Button from 'react-bootstrap/Button';
+import React from 'react'
+import { BsGithub } from 'react-icons/bs';
+
 
 function AboutMe() {
   return (
@@ -34,7 +37,8 @@ function AboutMe() {
         <Button>MongoDB</Button>
         <Button>Agile</Button> */}
         <div class="link-container">
-        <Card.Link href="#">Card Link</Card.Link>
+       
+        <Card.Link href="#"> <BsGithub /> Github</Card.Link>
         <Card.Link href="#">Another Link</Card.Link>
         </div>
       </Card.Body>
@@ -46,7 +50,7 @@ function AboutMe() {
           <div class="aboutme-right">
             <p class="aboutme-headline">
                 adkalfdjakldjakldfajkdls
-            </p>
+     </p>
             <p class="aboutme-texts">
                 adfjakldjfaldfajkl;
             </p>

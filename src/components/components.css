@@ -42,4 +42,25 @@
 
 .link-container {
     margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.github-link {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #404040;
+}
+
+.github-link a:hover {
+    color: var(--color-yellow);
+    transition: color;
+    transition-duration: 0.5s;
+}
+
+.linkedin-link {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #EC5800;
 }

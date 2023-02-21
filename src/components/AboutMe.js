@@ -3,13 +3,13 @@ import './components.css';
 import Button from 'react-bootstrap/Button';
 import React from 'react'
 import { BsGithub } from 'react-icons/bs';
-
+import {GrLinkedin} from 'react-icons/gr'
 
 function AboutMe() {
   return (
     <div class="aboutme">
 
-    <Card style={{ width: '25rem' }} className="m-5">
+    <Card style={{ width: '25rem' }} className="mb-5 mt-5">
       <Card.Body>
         {/* <Card.Title >Card Title</Card.Title> */}
         <div class="full-name">Takako Onozuka</div>
@@ -38,8 +38,10 @@ function AboutMe() {
         <Button>Agile</Button> */}
         <div class="link-container">
        
-        <Card.Link href="#"> <BsGithub /> Github</Card.Link>
-        <Card.Link href="#">Another Link</Card.Link>
+        <Card.Link class="github-link" href="https://github.com/taksgarby" target="_blank"> 
+        <BsGithub /> Github</Card.Link>
+        <Card.Link class="linkedin-link" href="https://www.linkedin.com/in/t-onozuka/" target="_blank">
+        <GrLinkedin /> LinkedIn</Card.Link>
         </div>
       </Card.Body>
     </Card>

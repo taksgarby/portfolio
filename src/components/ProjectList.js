@@ -1,19 +1,24 @@
 import React from "react";
-import Project from "./Project";
+import ProjectRecipe from "./ProjectRecipe";
 import Stack from 'react-bootstrap/Stack';
+import './bottomComponents.css';
+import {FaDesktop} from 'react-icons/fa'
 
 const ProjectList = () => {
     return ( 
-        <>  
-    <div class="container">    
-        <h3>Project List</h3>
-    <Stack direction="horizontal" gap={3}>
-    <Project />
-    <Project />
-    </Stack>
-    </div>
-    </>
+   
+<>
+    <h2 class="project-list-title">
+        <FaDesktop /> Projects <FaDesktop /></h2>    
+    <div class="project-list">    
 
+    <ProjectRecipe />
+    {/* <ProjectOrgan class="project"/>
+    <ProjectIfOnly class="project"/>
+    <ProjectRecord class="project"/> */}
+    </div>
+
+</>
      );
 }
  

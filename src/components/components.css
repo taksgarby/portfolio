@@ -1,6 +1,8 @@
 
+
 .aboutme  {
-    height: 70vh;
+    height: 60vh;
+
     position: relative;
     flex-direction: row;
     display: flex;

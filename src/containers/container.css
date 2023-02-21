@@ -1,5 +1,14 @@
-.body {
+/* .body {
     background-image: url("cherry.jpg");
-    
- 
+
 }
+
+* {
+    box-sizing: border-box;
+  }    */
+
+  .mainContainer {
+    display: box;
+    flex-direction: column;
+    justify-content: space-around ;
+  }

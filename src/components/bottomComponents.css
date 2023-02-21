@@ -1,0 +1,58 @@
+
+
+.project-list {
+
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: left;
+
+}
+
+
+.project-list-title {
+    color: black;
+    display: block;
+ 
+    font-size: 2rem;
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.project {
+    color: #404040;
+}
+/* 
+.recipeImage {
+
+} */
+
+img {
+    width: 18rem;
+    height: 16rem;
+}
+
+.sub-title {
+    color: blue;
+}
+
+.github-link-sm {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #404040;
+}
+
+.github-link-sm a:hover {
+    color: var(--color-yellow);
+    transition: color;
+    transition-duration: 0.5s;
+}
+
+.project-text {
+    color: #404040;
+    font-size: 1rem;
+    font-weight: 500;
+}

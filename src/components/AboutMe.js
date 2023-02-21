@@ -7,6 +7,7 @@ import {GrLinkedin} from 'react-icons/gr'
 
 function AboutMe() {
   return (
+
     <div class="aboutme">
 
     <Card style={{ width: '25rem' }} className="mb-5 mt-5">
@@ -81,6 +82,7 @@ function AboutMe() {
       </Card>
  
 </div>
+
   );
 }
 

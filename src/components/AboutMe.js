@@ -3,20 +3,37 @@ import './components.css';
 
 function AboutMe() {
   return (
-    <div class="container">    
-    <Card style={{ width: '18rem' }}>
+    <div class="aboutme">
+
+    <Card style={{ width: '25rem' }} className="m-5">
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+        {/* <Card.Title >Card Title</Card.Title> */}
+        <div class="full-name">Takako Onozuka</div>
+        {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+        <p class="h3">Junior Full Stack Developer</p>
+        <Card.Text class="skills">
+          Java | JavaScript | Python | HTML | CSS | MySQL | MongoDB
         </Card.Text>
         <Card.Link href="#">Card Link</Card.Link>
         <Card.Link href="#">Another Link</Card.Link>
       </Card.Body>
     </Card>
+
+    <Card style={{ width: '30rem' }} className="m-5">
+        <Card.Body>
+          {/* <Card.Title >Card Title</Card.Title> */}
+          <h1>Takako Onozuka</h1>
+          <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </Card.Text>
+          <Card.Link href="#">Card Link</Card.Link>
+          <Card.Link href="#">Another Link</Card.Link>
+        </Card.Body>
+      </Card>
     </div>
+
   );
 }
 

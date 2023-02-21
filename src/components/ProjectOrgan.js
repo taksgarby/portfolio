@@ -1,41 +1,39 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './bottomComponents.css';
-import  Recipe_top from './recipe_top.png'
+import  Organ_top from './organ_top.png'
 import Badge from 'react-bootstrap/Badge';
 import { BsGithub } from 'react-icons/bs';
 
-function ProjectRecipe() {
+function ProjectOrgan() {
   return (
     <div class="project">
     <Card style={{ width: '23rem' }}>
 
       <Card.Body>
-      <Card.Title className="text-center">Recipe Planner</Card.Title>
-      <img src={Recipe_top} />
+      <Card.Title className="text-center">Biology Education App</Card.Title>
+      <img src={Organ_top} />
   
       <div class="badge-container">
         <Badge bg="primary">
-        Java
-      </Badge>{' '}
-      <Badge bg="primary">
         JavaScript
       </Badge>{' '}
       <Badge bg="primary">
-        H2 db
+        MongoDB
+      </Badge>{' '}
+      <Badge bg="primary">
+        Node JS
       </Badge>{' '}
       <Badge bg="danger">
         React
       </Badge>{' '}
       <Badge bg="danger">
-        Spring
+        Insomnia
       </Badge>{' '}
       <Badge bg="danger">
         Agile
       </Badge>{' '}
-      <Badge bg="danger">
-        TDD
-      </Badge>{' '}
+   
       </div>
       <Card.Text class="project-text">
         A group of friends from my CodeClan cohort decided to create this multi-functional recipe app, following Agile method. 
@@ -52,7 +50,7 @@ function ProjectRecipe() {
   );
 }
 
-export default ProjectRecipe;
+export default ProjectOrgan;
 
 
 

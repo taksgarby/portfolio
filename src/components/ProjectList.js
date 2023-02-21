@@ -3,6 +3,7 @@ import ProjectRecipe from "./ProjectRecipe";
 import Stack from 'react-bootstrap/Stack';
 import './bottomComponents.css';
 import {FaDesktop} from 'react-icons/fa'
+import ProjectOrgan from "./ProjectOrgan";
 
 const ProjectList = () => {
     return ( 
@@ -13,6 +14,7 @@ const ProjectList = () => {
     <div class="project-list">    
 
     <ProjectRecipe />
+    <ProjectOrgan />
     {/* <ProjectOrgan class="project"/>
     <ProjectIfOnly class="project"/>
     <ProjectRecord class="project"/> */}

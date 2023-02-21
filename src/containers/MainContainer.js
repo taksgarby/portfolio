@@ -6,11 +6,13 @@ import './container.css';
 
 const MainContainer = () => {
     return ( 
-        <div class="mainContainer">
+     <div>
         <NavBar />
-        <AboutMe/ >
+        <div class="mainContainer">
+        <AboutMe />
         <ProjectList/>
         </div>
+        </div> 
      );
 }
  

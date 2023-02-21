@@ -50,11 +50,24 @@ function AboutMe() {
         <Card.Body>
           {/* <Card.Title >Card Title</Card.Title> */}
           <div class="aboutme-right">
+          <p class="aboutme-texts">
+                
+            </p>
             <p class="aboutme-headline">
-                adkalfdjakldjakldfajkdls
-     </p>
+                Technical Education
+            </p>
             <p class="aboutme-texts">
-                adfjakldjfaldfajkl;
+                I have recently graduated from the software development course by 
+                CodeClan, where I have enjoyed learning new coding skills and daily pair-programming exercices, 
+                as well as Agile-style group projects.  
+            </p>
+            <p class="aboutme-headline">
+                Work History
+            </p>
+            <p class="aboutme-texts">
+                Before moving to Scotland, I worked in Tokyo's publishing sector. 
+                In Scotland, for over 10 years I have been in education, teaching literacy to children all over 
+                Scotland at a weekend Japanese high school. Both experiences trained me to be a detail oriented content creator. 
             </p>
           {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
           <Card.Text>

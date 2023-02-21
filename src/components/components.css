@@ -31,7 +31,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 1rem;
-  
+    margin-top: 2rem;
 }
 
 .button-container-others {
@@ -63,4 +63,9 @@
     font-size: 1.3rem;
     text-decoration: none;
     color: #EC5800;
+}
+
+.aboutme-texts {
+    color: #696969;
+    font-size: 1.2rem;
 }

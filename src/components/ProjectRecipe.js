@@ -36,6 +36,9 @@ function ProjectRecipe() {
       <Badge bg="danger">
         TDD
       </Badge>{' '}
+      <Badge bg="secondary">
+        Group Project
+      </Badge>{' '}
       </div>
       <Card.Text class="project-text">
         A group of friends from my CodeClan cohort decided to create this multi-functional recipe app, following Agile method. 

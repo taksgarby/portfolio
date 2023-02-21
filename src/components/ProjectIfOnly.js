@@ -1,41 +1,44 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './bottomComponents.css';
-import  Organ_top from './organ_top.png'
+import  Ifonly_top from './ifonly_top.png'
 import Badge from 'react-bootstrap/Badge';
 import { BsGithub } from 'react-icons/bs';
 
-function ProjectOrgan() {
+function ProjectIfOnly() {
   return (
     <div class="project">
     <Card style={{ width: '23rem' }}>
 
       <Card.Body>
-      <Card.Title className="text-center">Biology Education App</Card.Title>
-      <img src={Organ_top} />
+      <Card.Title className="text-center">Record Shop Inventory APp</Card.Title>
+      <img src={Ifonly_top} />
   
       <div class="badge-container">
         <Badge bg="primary">
+        Java
+      </Badge>{' '}
+      <Badge bg="primary">
         JavaScript
       </Badge>{' '}
       <Badge bg="primary">
-        MongoDB
+        H2 db
       </Badge>{' '}
-      <Badge bg="primary">
-        Node JS
+    
+    
+      <Badge bg="danger">
+        Spring
       </Badge>{' '}
       <Badge bg="danger">
         React
       </Badge>{' '}
       <Badge bg="danger">
-        Insomnia
-      </Badge>{' '}
-      <Badge bg="danger">
-        Agile
+        TDD
       </Badge>{' '}
       <Badge bg="secondary">
-        Group Project
+        Solo Project
       </Badge>{' '}
+   
       </div>
       <Card.Text class="project-text">
         A group of friends from my CodeClan cohort decided to create this multi-functional recipe app, following Agile method. 
@@ -52,7 +55,7 @@ function ProjectOrgan() {
   );
 }
 
-export default ProjectOrgan;
+export default ProjectIfOnly;
 
 
 

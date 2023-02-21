@@ -21,7 +21,21 @@
     color: #696969;
 }
 
-.skills {
+.aboutme-right {
     color: #0066FF;
     font-size: 1.3rem;
+}
+
+.button-container-language {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  
+}
+
+.button-container-others {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }

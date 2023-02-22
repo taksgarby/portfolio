@@ -11,7 +11,7 @@ function ProjectRecord() {
     <Card style={{ width: '23rem' }}>
 
       <Card.Body>
-      <Card.Title className="text-center">Record Shop Inventory APp</Card.Title>
+      <Card.Title className="text-center">Record Shop Inventory App</Card.Title>
       <div class="img2">
       <img src={Record_top} />
       </div>
@@ -35,12 +35,15 @@ function ProjectRecord() {
    
       </div>
       <Card.Text class="project-text">
-        A group of friends from my CodeClan cohort decided to create this multi-functional recipe app, following Agile method. 
-        This let users to search recipes by ingredients, cuisine type and diet type. It also lets authenticated users to access their Dashboard, 
-        where the users can use the calender-planner, comment form, shopping list.   
-    
+      This is my very first project, after 4 weeks into the CodeClan course. 
+        This app is designed for a middle-aged antique record shop owner to keep track of their inventory.
+        The app lets users to:<br/>
+        Search records by genre and artist.<br/>
+        Create a new record entry.<br/>
+        Create a new genre / artist entry. <br/>
+        Get notified when the record stock is low by "bulletin board" on the main page.
         </Card.Text>
-        <Card.Link class="github-link-sm" href="https://www.linkedin.com/in/t-onozuka/" target="_blank">
+        <Card.Link class="github-link-sm" href="https://github.com/taksgarby/record_shop_project_new" target="_blank">
         <BsGithub /> View this repo</Card.Link>
 
       </Card.Body>

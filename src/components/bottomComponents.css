@@ -13,7 +13,7 @@
 
 
 .project-list-title {
-    color: black;
+    color:  #404040;
     display: block;
  
     font-size: 2rem;
@@ -69,4 +69,10 @@ img {
     color: #404040;
     font-size: 0.9rem;
     font-weight: 500;
+}
+
+.back-front-repo {
+    display: flex;
+    justify-content: space-betweens;
+    flex-direction: row;
 }

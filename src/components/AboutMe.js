@@ -15,7 +15,7 @@ function AboutMe() {
         {/* <Card.Title >Card Title</Card.Title> */}
         <div class="full-name">Takako Onozuka</div>
         {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-        <p class="h3">Junior Full Stack Developer</p>
+        <p class="h3">Junior Software Developer</p>
         {/* <Card.Text class="skills"> */}
           {/* Java | JavaScript | Python | HTML | CSS | MySQL | MongoDB */}
         {/* </Card.Text> */}

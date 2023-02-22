@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 import AboutMe from "../components/AboutMe";
 import ProjectList from "../components/ProjectList";
 import './container.css';
+import Footer from "../components/Footer";
 
 const MainContainer = () => {
     return ( 
@@ -12,6 +13,7 @@ const MainContainer = () => {
         <AboutMe />
         <ProjectList/>
         </div>
+        <Footer />
         </div> 
      );
 }

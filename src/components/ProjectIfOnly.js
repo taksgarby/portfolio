@@ -47,11 +47,14 @@ function ProjectIfOnly() {
        The would-have-been profit is calculated by the hightest and lowest point of the chosen stock, within users' would-have-been budget.
     
         </Card.Text>
-       <div class="back-front-repo"> 
+       <div class="repo-container"> 
+
         <Card.Link class="github-link-sm" href="https://github.com/taksgarby/IfOnlyStock" target="_blank">
         <BsGithub /> Backend Repo</Card.Link>
+
         <Card.Link class="github-link-sm" href="https://github.com/taksgarby/IfOnly_Front" target="_blank" >
-        <BsGithub />    Frontend Repo</Card.Link>
+        <BsGithub /> Frontend Repo</Card.Link>
+ 
         </div>
       </Card.Body>
     </Card>

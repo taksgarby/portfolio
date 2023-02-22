@@ -46,9 +46,12 @@ function ProjectRecipe() {
         where the users can use the calender-planner, comment form, shopping list.   
     
         </Card.Text>
-        <Card.Link class="github-link-sm" href="https://www.linkedin.com/in/t-onozuka/" target="_blank">
-        <BsGithub /> View this repo</Card.Link>
-
+        <div class="repo-container">
+        <Card.Link class="github-link-sm" href="https://github.com/taksgarby/Recipe_Generator_Back_End" target="_blank">
+        <BsGithub /> Backend Repo</Card.Link>
+        <Card.Link class="github-link-sm" href="https://github.com/taksgarby/Recipe_Generator_FrontEnd" target="_blank">
+        <BsGithub /> Frontend Repo</Card.Link>
+        </div>
       </Card.Body>
     </Card>
     </div>

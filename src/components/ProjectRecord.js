@@ -43,9 +43,10 @@ function ProjectRecord() {
         Create a new genre / artist entry. <br/>
         Get notified when the record stock is low by "bulletin board" on the main page.
         </Card.Text>
+        <div class="repo-container">
         <Card.Link class="github-link-sm" href="https://github.com/taksgarby/record_shop_project_new" target="_blank">
         <BsGithub /> View this repo</Card.Link>
-
+        </div>
       </Card.Body>
     </Card>
     </div>

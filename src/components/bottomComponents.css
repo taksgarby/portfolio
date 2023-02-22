@@ -56,23 +56,24 @@ img {
 .github-link-sm {
     font-size: 1rem;
     text-decoration: none;
-    color: #404040;
+    color: #1877F2;
 }
 
 .github-link-sm a:hover {
-    color: var(--color-yellow);
+    color: var(--color-red);
     transition: color;
     transition-duration: 0.5s;
 }
 
 .project-text {
+    padding-top: 1rem;
     color: #404040;
     font-size: 0.9rem;
     font-weight: 500;
 }
 
-.back-front-repo {
+.repo-container {
     display: flex;
-    justify-content: space-betweens;
+    justify-content: space-evenly;
     flex-direction: row;
 }

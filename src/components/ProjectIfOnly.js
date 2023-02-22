@@ -12,8 +12,9 @@ function ProjectIfOnly() {
 
       <Card.Body>
       <Card.Title className="text-center">Record Shop Inventory APp</Card.Title>
+      <div class="img2">
       <img src={Ifonly_top} />
-  
+      </div>
       <div class="badge-container">
         <Badge bg="primary">
         Java

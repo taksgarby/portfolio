@@ -34,7 +34,20 @@
 img {
     width: 20rem;
     height: 16rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.img2 img {
+    width: 17rem;
+    height: 16rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 
 .sub-title {
     color: blue;

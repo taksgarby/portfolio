@@ -12,8 +12,9 @@ function ProjectRecord() {
 
       <Card.Body>
       <Card.Title className="text-center">Record Shop Inventory APp</Card.Title>
+      <div class="img2">
       <img src={Record_top} />
-  
+      </div>
       <div class="badge-container">
         <Badge bg="primary">
         Python

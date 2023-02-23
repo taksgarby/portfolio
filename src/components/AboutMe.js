@@ -10,7 +10,7 @@ function AboutMe() {
 
     <div class="aboutme">
 
-    <Card style={{ width: '25rem' }} className="mb-5 mt-5">
+    <Card style={{ width: '25rem' }} className="mb-5 mt-5 pt-4">
       <Card.Body>
         {/* <Card.Title >Card Title</Card.Title> */}
         <div class="full-name">Takako Onozuka</div>

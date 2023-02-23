@@ -43,7 +43,7 @@ function ProjectIfOnly() {
       </div>
       <Card.Text class="project-text">
        This is my post-CodeClan project that is being developed. Humour and regret are the main themes of this app.
-       This app lets users to see how much profit they could have made in the last five years, had they made the right choice at the right time.
+       This app lets users see how much profit they could have made in the last five years, had they made the right choice at the right time.
        The would-have-been profit is calculated by the highest and lowest point of the chosen stock, within users' would-have-been budget.
     
         </Card.Text>

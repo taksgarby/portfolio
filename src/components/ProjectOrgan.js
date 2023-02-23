@@ -41,7 +41,7 @@ function ProjectOrgan() {
       Group project designed as an educational app for BBC to 
       teach biology to high school students. Aimed to allow users to choose 
       from 3 organs to learn where they can watch videos, read diagrams and test 
-      knowledge on a quiz that will display a final mark. I particularly enjoyed creating a non-relational database
+      knowledge on a quiz that will display a final mark. Teamwork was manage by stand-ups, Trello board and code reviews. I particularly enjoyed creating a non-relational database
       for our app using MongoDB. 
     
         </Card.Text>

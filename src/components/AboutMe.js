@@ -55,7 +55,7 @@ function AboutMe() {
                 Originally from Japan, I worked in Tokyo's publishing sector before moving to Scotland due to family commitment. 
                 For the past 10 years, I have worked in education, teaching literacy to young people all over 
                 Scotland at a weekend Japanese high school. Both experiences trained me to be a detail oriented content creator. 
-                I have decided to shift my carrer into software development in recent years, and I love coding and working in Agile-style teamwork.            </p>
+                I have decided to shift my career into software development in recent years, and I love coding and working in Agile-style teamwork.            </p>
             <p class="aboutme-headline">
                 Technical Education
             </p>

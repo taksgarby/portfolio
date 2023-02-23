@@ -14,11 +14,9 @@ function AboutMe() {
       <Card.Body>
         {/* <Card.Title >Card Title</Card.Title> */}
         <div class="full-name">Takako Onozuka</div>
-        {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
+
         <p class="h3">Junior Software Developer</p>
-        {/* <Card.Text class="skills"> */}
-          {/* Java | JavaScript | Python | HTML | CSS | MySQL | MongoDB */}
-        {/* </Card.Text> */}
+
         <div class="button-container-language">
         <button type="button" class="btn btn-info">Java</button>
         <button type="button" class="btn btn-info">JavaScript</button>
@@ -31,12 +29,7 @@ function AboutMe() {
         <button type="button" class="btn btn-info">Agile</button>
         <button type="button" class="btn btn-info">TDD</button>
         </div>
-        {/* <Button style={{ width: '5rem', height: '2rem'}} className="m-2">Java</Button>
-        <Button>JavaScript</Button>
-        <Button>Python</Button>
-        <Button>MySQL</Button>
-        <Button>MongoDB</Button>
-        <Button>Agile</Button> */}
+
         <div class="link-container">
        
         <Card.Link class="github-link" href="https://github.com/taksgarby" target="_blank"> 
@@ -54,29 +47,25 @@ function AboutMe() {
           <p class="aboutme-texts">
                 
             </p>
+  
+            <p class="aboutme-headline">
+                About Takako
+            </p>
+            <p class="aboutme-texts">
+                Originally from Japan, I worked in Tokyo's publishing sector before moving to Scotland due to family commitment. 
+                For the past 10 years, I have worked in education, teaching literacy to young people all over 
+                Scotland at a weekend Japanese high school. Both experiences trained me to be a detail oriented content creator. 
+                I have decided to shift my carrer into software development in recent years, and I love coding and working in Agile-style teamwork.            </p>
             <p class="aboutme-headline">
                 Technical Education
             </p>
             <p class="aboutme-texts">
-                I have recently graduated from the software development course by 
-                CodeClan, where I have enjoyed learning new coding skills and daily pair-programming exercices, 
-                as well as Agile-style group projects.  
+            Completed 16 weeks intensive software development course. 
+            800 hours worth of coding lessons on development languages, databases, testing and methodologies. 
+            Daily pair programming exercises. For group projects, we followed Agile methodology, 
+            running regular stand-ups while organising collaborative work using Trello board and Github. 
+            Completed Professional Development Award: Software Development at Level 8.
             </p>
-            <p class="aboutme-headline">
-                Work History
-            </p>
-            <p class="aboutme-texts">
-                Before moving to Scotland, I worked in Tokyo's publishing sector. 
-                In Scotland, for over 10 years I have been in education, teaching literacy to children all over 
-                Scotland at a weekend Japanese high school. Both experiences trained me to be a detail oriented content creator. 
-            </p>
-          {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>s
-          <Card.Link href="#">Card Link</Card.Link>
-          <Card.Link href="#">Another Link</Card.Link> */}
              </div>
         </Card.Body>
       </Card>

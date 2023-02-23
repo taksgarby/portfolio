@@ -35,13 +35,13 @@ function ProjectRecord() {
    
       </div>
       <Card.Text class="project-text">
-      This is my very first project, after 4 weeks into the CodeClan course. 
-        This app is designed for a middle-aged antique record shop owner to keep track of their inventory.
-        The app lets users to:<br/>
-        Search records by genre and artist.<br/>
-        Create a new record entry.<br/>
-        Create a new genre / artist entry. <br/>
-        Get notified when the record stock is low by "bulletin board" on the main page.
+      This is my very first project, after 4 weeks of the CodeClan course. 
+        This app is designed for record shop owners to keep track of their inventory.
+        The app lets users:<br/>
+        - Search records by genre and artist.<br/>
+        - Create a new record entry.<br/>
+        - Create a new genre / artist entry. <br/>
+        - Get notified when a particular record stock becomes low by mesesages displayed on the main page.
         </Card.Text>
         <div class="repo-container">
         <Card.Link class="github-link-sm" href="https://github.com/taksgarby/record_shop_project_new" target="_blank">

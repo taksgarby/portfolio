@@ -67,6 +67,10 @@
 }
 
 .aboutme-texts {
-    color: #696969;
-    font-size: 1.2rem;
+    color: #404040;
+    font-size: 1rem;
+}
+
+.nav-text {
+    text-align: right;
 }

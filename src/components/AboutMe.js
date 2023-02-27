@@ -18,16 +18,16 @@ function AboutMe() {
         <p class="h3">Junior Software Developer</p>
 
         <div class="button-container-language">
-        <button type="button" class="btn btn-info">Java</button>
-        <button type="button" class="btn btn-info">JavaScript</button>
-        <button type="button" class="btn btn-info">Python</button>
-        <button type="button" class="btn btn-info">HTML/CSS</button>
-        </div>
-        <div class="button-container-others">
-        <button type="button" class="btn btn-info">MySQL</button>
-        <button type="button" class="btn btn-info">MongoDB</button>
-        <button type="button" class="btn btn-info">Agile</button>
-        <button type="button" class="btn btn-info">TDD</button>
+        <button type="button" class="btn btn-info mb-2">Java</button>
+        <button type="button" class="btn btn-info mb-2">JavaScript</button>
+        <button type="button" class="btn btn-info mb-2">Python</button>
+        <button type="button" class="btn btn-info mb-2">HTML/CSS</button>
+        {/* </div>
+        <div class="button-container-others"> */}
+        <button type="button" class="btn btn-info" mb-2>MySQL</button>
+        <button type="button" class="btn btn-info" mb-2>MongoDB</button>
+        <button type="button" class="btn btn-info" mb-2>Agile</button>
+        <button type="button" class="btn btn-info" mb-2>TDD</button>
         </div>
 
         <div class="link-container">

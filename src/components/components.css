@@ -71,6 +71,8 @@
     font-size: 1rem;
 }
 
-.nav-text {
-    text-align: right;
+
+.nav-welcome {
+    color: aliceblue;
+    font-size: 1rem;
 }

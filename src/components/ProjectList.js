@@ -11,9 +11,9 @@ const ProjectList = () => {
     return ( 
    
 <>
-    <h2 class="project-list-title">
+    <h2 class="project-list-title" id="projects">
         <FaDesktop /> Projects <FaDesktop /></h2>    
-    <div class="project-list">    
+    <div class="project-list" >    
 
     <ProjectRecipe />
     <ProjectOrgan />

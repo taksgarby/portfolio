@@ -24,10 +24,10 @@ function AboutMe() {
         <button type="button" class="btn btn-info mb-2">HTML/CSS</button>
         {/* </div>
         <div class="button-container-others"> */}
-        <button type="button" class="btn btn-info" mb-2>MySQL</button>
-        <button type="button" class="btn btn-info" mb-2>MongoDB</button>
-        <button type="button" class="btn btn-info" mb-2>Agile</button>
-        <button type="button" class="btn btn-info" mb-2>TDD</button>
+        <button type="button" class="btn btn-info mb-2">MySQL</button>
+        <button type="button" class="btn btn-info mb-2">MongoDB</button>
+        <button type="button" class="btn btn-info mb-2">Agile</button>
+        <button type="button" class="btn btn-info mb-2">TDD</button>
         </div>
 
         <div class="link-container">

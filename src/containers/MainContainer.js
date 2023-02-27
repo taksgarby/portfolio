@@ -4,6 +4,7 @@ import AboutMe from "../components/AboutMe";
 import ProjectList from "../components/ProjectList";
 import './container.css';
 import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 
 const MainContainer = () => {
     return ( 
@@ -12,6 +13,7 @@ const MainContainer = () => {
         <div class="mainContainer">
         <AboutMe />
         <ProjectList/>
+       <Contact />
         </div>
         <Footer />
         </div> 

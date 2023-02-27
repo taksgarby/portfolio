@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectRecipe from "./ProjectRecipe";
-import Stack from 'react-bootstrap/Stack';
+
 import './bottomComponents.css';
 import {FaDesktop} from 'react-icons/fa'
 import ProjectOrgan from "./ProjectOrgan";

@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button';
+// import React from 'react';
 import Card from 'react-bootstrap/Card';
 import './bottomComponents.css';
 import  Recipe_top from './recipe_top.png'

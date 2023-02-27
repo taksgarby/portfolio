@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button';
+// import React from 'react';
 import Card from 'react-bootstrap/Card';
 import './bottomComponents.css';
 import  Ifonly_top from './ifonly_top.png'

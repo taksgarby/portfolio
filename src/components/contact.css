@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
+
+/* body {
+  margin: 0;
+  padding: 0;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+/* .contact-form {
+
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: left;
+
+} */
+
+
+.contact-form-title {
+  color:  #404040;
+  display: block;
+
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 2rem;
+
+}
+
+
+
+form {
+  display: block;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 2px #ddd;
+  margin: 40px auto;
+  max-width: 600px;
+  max-height: 700px;
+  padding: 25px 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.contact-text {
+  font-size: 1.5rem;
+  color:#404040;
+}
+
+label {
+  color: #0066FF;
+  margin: 0.5rem;
+}
+
+form input,
+textarea {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  font-family: "Poppins";
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  color: #000;
+  opacity: 1;
+ 
+}
+
+::-moz-placeholder {
+  opacity: 1;
+  color: #000;
+}
+
+input::placeholder {
+  color: #000;
+  opacity: 1;
+}
+
+
+/* 
+.submit-button {
+  height: 30px;
+  width: 100px;
+  align-items: center;
+  border: 1px solid #ddd;
+  background-color: #59bd8b;
+  color: white;
+  cursor: pointer;
+} 
+ */
+
+ .send-button {
+  margin-top: 1rem;
+  cursor: pointer;
+  
+ }

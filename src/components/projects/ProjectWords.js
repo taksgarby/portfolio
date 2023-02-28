@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card';
-import './bottomComponents.css';
+import '../bottomComponents.css';
 import  Words_top from './words_top.png'
 import Badge from 'react-bootstrap/Badge';
 import { BsGithub } from 'react-icons/bs';
@@ -53,7 +53,7 @@ function ProjectWords() {
         <BsGithub /> Frontend Repo</Card.Link>
         </div>
     
-        </div>
+        </div>  
       </Card.Body>
     </Card>
     </div>

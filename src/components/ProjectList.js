@@ -1,12 +1,12 @@
 import React from "react";
-import ProjectRecipe from "./ProjectRecipe";
+import ProjectRecipe from "./projects/ProjectRecipe";
 
 import './bottomComponents.css';
 import {FaDesktop} from 'react-icons/fa'
-import ProjectOrgan from "./ProjectOrgan";
-import ProjectRecord from "./ProjectRecord";
-import ProjectIfOnly from "./ProjectIfOnly";
-import ProjectWords from "./ProjectWords";
+import ProjectOrgan from "./projects/ProjectOrgan";
+import ProjectRecord from "./projects/ProjectRecord";
+import ProjectIfOnly from "./projects/ProjectIfOnly";
+import ProjectWords from "./projects/ProjectWords";
 
 const ProjectList = () => {
     return ( 
@@ -21,9 +21,7 @@ const ProjectList = () => {
     <ProjectRecord />
     <ProjectIfOnly />
     <ProjectWords />
-    {/* <ProjectOrgan class="project"/>
-    <ProjectIfOnly class="project"/>
-    <ProjectRecord class="project"/> */}
+
     </div>
 
 </>

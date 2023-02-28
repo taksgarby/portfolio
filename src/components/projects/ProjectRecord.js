@@ -1,6 +1,6 @@
 // import React from 'react';
 import Card from 'react-bootstrap/Card';
-import './bottomComponents.css';
+import '../bottomComponents.css';
 import  Record_top from './record_top.png'
 import Badge from 'react-bootstrap/Badge';
 import { BsGithub } from 'react-icons/bs';

@@ -58,13 +58,13 @@ const ContactForm = () => {
     <div class="contact-form">
  
     <form ref={form} onSubmit={sendEmail}>
-    <p class="contact-text"><RiBearSmileLine/> Please contact me using this form. <RiBearSmileLine/></p>
+    <p class="contact-text"><RiBearSmileLine/> Please get in touch!</p>
       <label>Your Name</label>
       <input type="text" name="user_name" id='text-input' placeholder="Please enter your name" required/>
       <label>Your Email</label>
       <input type="email" name="user_email" id='text-input' placeholder='example@example.com' required/>
       <label>Message</label>
-      <textarea type="text" name="message" cols='30' rows='10' id='text-input' placeholder='Please write your message here!...' required/>
+      <textarea type="text" name="message" cols='30' rows='10' id='text-input'  required/>
 
       {/* <ReCAPTCHA 
                sitekey='6Lf8FLMkAAAAAJe3O6jUKMnYKG0JS43iHYW8mfkk' 

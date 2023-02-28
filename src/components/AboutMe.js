@@ -21,11 +21,13 @@ function AboutMe() {
         <button type="button" class="btn btn-info mb-2">Java</button>
         <button type="button" class="btn btn-info mb-2">JavaScript</button>
         <button type="button" class="btn btn-info mb-2">Python</button>
-        <button type="button" class="btn btn-info mb-2">HTML/CSS</button>
+        {/* <button type="button" class="btn btn-info mb-2">CSS</button> */}
         {/* </div>
         <div class="button-container-others"> */}
         <button type="button" class="btn btn-info mb-2">MySQL</button>
         <button type="button" class="btn btn-info mb-2">MongoDB</button>
+        <button type="button" class="btn btn-info mb-2">React</button>
+        <button type="button" class="btn btn-info mb-2">Spring</button>
         <button type="button" class="btn btn-info mb-2">Agile</button>
         <button type="button" class="btn btn-info mb-2">TDD</button>
         </div>

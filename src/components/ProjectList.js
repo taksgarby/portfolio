@@ -6,6 +6,7 @@ import {FaDesktop} from 'react-icons/fa'
 import ProjectOrgan from "./ProjectOrgan";
 import ProjectRecord from "./ProjectRecord";
 import ProjectIfOnly from "./ProjectIfOnly";
+import ProjectWords from "./ProjectWords";
 
 const ProjectList = () => {
     return ( 
@@ -19,6 +20,7 @@ const ProjectList = () => {
     <ProjectOrgan />
     <ProjectRecord />
     <ProjectIfOnly />
+    <ProjectWords />
     {/* <ProjectOrgan class="project"/>
     <ProjectIfOnly class="project"/>
     <ProjectRecord class="project"/> */}

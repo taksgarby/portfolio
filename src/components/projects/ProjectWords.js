@@ -11,7 +11,7 @@ function ProjectWords() {
 
       <Card.Body>
       <Card.Title className="text-center">Japanese Word Finder</Card.Title>
-      <div class="img4">
+      <div class="img2">
       <img src={Words_top} />
       </div>
   

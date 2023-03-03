@@ -11,7 +11,7 @@ function ProjectIfOnly() {
 
       <Card.Body>
       <Card.Title className="text-center">If Only App</Card.Title>
-      <div class="img2">
+      <div class="img4">
       <img src={Ifonly_top} />
       </div>
       <div class="badge-container">

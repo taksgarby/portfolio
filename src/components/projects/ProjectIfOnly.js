@@ -3,6 +3,8 @@ import '../bottomComponents.css';
 import  Ifonly_top from './ifonly_top.png'
 import Badge from 'react-bootstrap/Badge';
 import { BsGithub } from 'react-icons/bs';
+import ModalWindow from '../modal/IfOnlyModal';
+import IfOnlyModal from '../modal/IfOnlyModal';
 
 function ProjectIfOnly() {
   return (
@@ -53,8 +55,9 @@ function ProjectIfOnly() {
 
         <Card.Link class="github-link-sm" href="https://github.com/taksgarby/IfOnly_Front" target="_blank" >
         <BsGithub /> Frontend Repo</Card.Link>
- 
         </div>
+  
+      <IfOnlyModal />
       </Card.Body>
     </Card>
     </div>

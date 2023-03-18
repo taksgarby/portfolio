@@ -58,7 +58,9 @@ function ProjectRecipe() {
 
    
         </div>
-        <RecipeModal />
+
+        {/* <RecipeModal />
+      */}
       </Card.Body>
     </Card>
     </div>

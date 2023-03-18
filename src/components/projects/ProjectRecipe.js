@@ -4,7 +4,7 @@ import '../bottomComponents.css';
 import  Recipe_top from './recipe_top.png'
 import Badge from 'react-bootstrap/Badge';
 import { BsGithub } from 'react-icons/bs';
-import RecipeModal from '../modal/RecipeModal';
+// import RecipeModal from '../modal/RecipeModal';
 
 
 function ProjectRecipe() {
@@ -58,7 +58,7 @@ function ProjectRecipe() {
 
    
         </div>
-        <RecipeModal />
+        {/* <RecipeModal /> */}
       </Card.Body>
     </Card>
     </div>

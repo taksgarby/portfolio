@@ -4,6 +4,8 @@ import '../bottomComponents.css';
 import  Recipe_top from './recipe_top.png'
 import Badge from 'react-bootstrap/Badge';
 import { BsGithub } from 'react-icons/bs';
+import RecipeModal from '../modal/RecipeModal';
+
 
 function ProjectRecipe() {
   return (
@@ -53,7 +55,10 @@ function ProjectRecipe() {
         <BsGithub /> Backend Repo</Card.Link>
         <Card.Link class="github-link-sm" href="https://github.com/taksgarby/Recipe_Generator_FrontEnd" target="_blank">
         <BsGithub /> Frontend Repo</Card.Link>
+
+   
         </div>
+        <RecipeModal />
       </Card.Body>
     </Card>
     </div>

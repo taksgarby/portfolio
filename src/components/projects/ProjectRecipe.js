@@ -4,8 +4,7 @@ import '../bottomComponents.css';
 import  Recipe_top from './recipe_top.png'
 import Badge from 'react-bootstrap/Badge';
 import { BsGithub } from 'react-icons/bs';
-import RecipeModal from '../modal/RecipeModal';
-
+import { FaVimeo } from 'react-icons/fa';
 
 function ProjectRecipe() {
   return (
@@ -58,9 +57,12 @@ function ProjectRecipe() {
 
    
         </div>
-
-        {/* <RecipeModal />
-      */}
+      <div class="video-link">
+        <a href="https://vimeo.com/user196699763" target="_blank">
+          <FaVimeo/>Watch our presentation
+        </a>
+      </div>
+    
       </Card.Body>
     </Card>
     </div>

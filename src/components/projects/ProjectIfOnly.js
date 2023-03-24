@@ -53,7 +53,7 @@ function ProjectIfOnly() {
         <Card.Link class="github-link-sm" href="https://github.com/taksgarby/IfOnlyStock" target="_blank">
         <BsGithub /> Backend Repo</Card.Link>
 
-        <Card.Link class="github-link-sm" href="https://github.com/taksgarby/IfOnly_Front" target="_blank" >
+        <Card.Link class="github-link-sm" href="https://github.com/taksgarby/ifonly_front_new" target="_blank" >
         <BsGithub /> Frontend Repo</Card.Link>
         </div>
   

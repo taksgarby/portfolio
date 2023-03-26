@@ -5,6 +5,7 @@ import Badge from 'react-bootstrap/Badge';
 import { BsGithub } from 'react-icons/bs';
 import ModalWindow from '../modal/IfOnlyModal';
 import IfOnlyModal from '../modal/IfOnlyModal';
+import { GrYoutube } from 'react-icons/gr';
 
 function ProjectIfOnly() {
   return (
@@ -25,6 +26,9 @@ function ProjectIfOnly() {
       </Badge>{' '}
       <Badge bg="primary">
         H2 db
+      </Badge>{' '}
+      <Badge bg="primary">
+        Tailwind CSS
       </Badge>{' '}
     
     
@@ -56,7 +60,11 @@ function ProjectIfOnly() {
         <Card.Link class="github-link-sm" href="https://github.com/taksgarby/ifonly_front_new" target="_blank" >
         <BsGithub /> Frontend Repo</Card.Link>
         </div>
-  
+        <div class="video-link">
+        <a href="https://www.youtube.com/shorts/oH82Ti8SrB4" target="_blank">
+          <GrYoutube/> Watch the demo
+        </a>
+      </div>
       <IfOnlyModal />
       </Card.Body>
     </Card>

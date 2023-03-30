@@ -9,7 +9,7 @@ import { GrYoutube } from 'react-icons/gr';
 
 function ProjectIfOnly() {
   return (
-    <div class="project">
+    <div class="project" id="ifonly">
     <Card style={{ width: '23rem' }}>
 
       <Card.Body>

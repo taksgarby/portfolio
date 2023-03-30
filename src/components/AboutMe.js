@@ -54,7 +54,7 @@ function AboutMe() {
                 About Takako
             </p>
             <p class="aboutme-texts">
-                Originally from Japan, I worked in Tokyo's publishing sector before moving to Scotland due to family commitment. 
+                Originally from Japan, I worked in Tokyo's publishing sector before moving to Scotland. 
                 For the past 10 years, I have worked in education, teaching literacy to young people all over 
                 Scotland at a weekend Japanese high school. Both experiences trained me to be a detail oriented content creator. 
                 I have decided to shift my career into software development in recent years, and I love coding and working in Agile-style teamwork.            </p>
@@ -62,11 +62,19 @@ function AboutMe() {
                 Technical Education
             </p>
             <p class="aboutme-texts">
-            Completed 16 weeks intensive software development course. 
-            800 hours worth of coding lessons on development languages, databases, testing and methodologies. 
+            Completed CodeClan's intensive software development course. 
+            Development languages, databases, testing and methodologies. 
             Daily pair programming exercises. For group projects, we followed Agile methodology, 
             running regular stand-ups while organising collaborative work using Trello board and Github. 
             Completed Professional Development Award: Software Development at Level 8.
+            </p>
+            <p class="aboutme-headline">
+                Currently learning
+            </p>
+            <p class="aboutme-texts">
+            Preparing for <strong>AWS Cloud Practitioner cerfiticate</strong><br/>
+            Taking <strong>CISCO Cybersecurity </strong>course<br/>
+            Developing my project, <a href="#ifonly"><strong>If Only App</strong></a>
             </p>
              </div>
         </Card.Body>

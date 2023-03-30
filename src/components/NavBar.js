@@ -10,7 +10,7 @@ function NavBar() {
   return (
     <>
       <Navbar bg="info" variant="light">
-        <Container>
+        <Container id="home">
           <Navbar.Brand href="#home" > Welcome!</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#projects"><FaDesktop /> Projects</Nav.Link>

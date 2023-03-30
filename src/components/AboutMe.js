@@ -69,12 +69,14 @@ function AboutMe() {
             Completed Professional Development Award: Software Development at Level 8.
             </p>
             <p class="aboutme-headline">
-                Currently learning
+                Currently I am:
             </p>
             <p class="aboutme-texts">
             Preparing for <strong>AWS Cloud Practitioner cerfiticate</strong><br/>
             Taking <strong>CISCO Cybersecurity </strong>course<br/>
-            Developing my project, <a href="#ifonly"><strong>If Only App</strong></a>
+            Developing my project, <a href="#ifonly"><strong>If Only App</strong></a><br/>
+            Working on a data analysis project at  <a href="https://www.scottishtecharmy.org/" target="_blank">
+              <strong>Scottish Tech Army</strong></a><br/>
             </p>
              </div>
         </Card.Body>

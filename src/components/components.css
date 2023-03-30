@@ -96,3 +96,10 @@
 .video-link a:hover {
     color: hotpink;
 }
+
+.back-to-top a {
+    text-decoration: none;
+    margin-top: none;
+    padding-top: none;
+    color: white;
+}

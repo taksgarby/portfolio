@@ -15,7 +15,7 @@ function AboutMe() {
         {/* <Card.Title >Card Title</Card.Title> */}
         <div class="full-name">Takako Onozuka</div>
 
-        <p class="h3">Junior Software Developer</p>
+        <p class="h3">Education & Software Dev</p>
 
         <div class="button-container-language">
         <button type="button" class="btn btn-info mb-2">Java</button>

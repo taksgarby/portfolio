@@ -62,7 +62,7 @@ const ContactForm = () => {
       <label>Your Name</label>
       <input type="text" name="user_name" id='text-input' placeholder="Please enter your name" required/>
       <label>Your Email</label>
-      <input type="email" name="user_email" id='text-input' placeholder='example@example.com' required/>
+      <input type="email" name="user_email" id='text-input' placeholder='Please enter your email address' required/>
       <label>Message</label>
       <textarea type="text" name="message" cols='30' rows='10' id='text-input'  required/>
 

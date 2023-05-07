@@ -3,7 +3,8 @@ import './components.css';
 import Button from 'react-bootstrap/Button';
 import React from 'react'
 import { BsGithub } from 'react-icons/bs';
-import {GrLinkedin} from 'react-icons/gr'
+import {GrLinkedin} from 'react-icons/gr';
+import {SiAmazonaws} from 'react-icons/si';
 
 function AboutMe() {
   return (
@@ -39,6 +40,12 @@ function AboutMe() {
         <Card.Link class="linkedin-link" href="https://www.linkedin.com/in/t-onozuka/" target="_blank">
         <GrLinkedin /> LinkedIn</Card.Link>
         </div>
+   
+        <div class="link-container">
+        <Card.Link class="aws-link" href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank"> 
+        <SiAmazonaws /> AWS Certified Cloud Practitioner</Card.Link>
+        </div>
+
       </Card.Body>
     </Card>
 
@@ -72,7 +79,6 @@ function AboutMe() {
                 Currently I am:
             </p>
             <p class="aboutme-texts">
-            Preparing for <strong>AWS Cloud Practitioner cerfiticate</strong><br/>
             Taking <strong>CISCO Cybersecurity </strong>course<br/>
             Developing my project, <a href="#ifonly"><strong>If Only App</strong></a><br/>
             Working on a data analysis project at  <a href="https://www.scottishtecharmy.org/" target="_blank">
@@ -90,26 +96,6 @@ function AboutMe() {
 export default AboutMe;
 
 
-
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-
-
-// const AboutMe = () => {
-//   return (
-//     <Container>
-//       <Row>
-//         <Col sm={4}>name</Col>
-//         <Col sm={8}>details</Col>
-//       </Row>
-    
-
-//     </Container>
-//   );
-// }
-
-// export default AboutMe;
 
 
 

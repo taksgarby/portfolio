@@ -73,6 +73,18 @@
     color: #2a52be;
 }
 
+.cisco-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #18A8D8;
+}
+
+.cisco-sub {
+    font-size: 0.8rem;
+    text-align: right;
+    margin-right: 1rem;
+    color: #404040;
+}
 
 .aboutme-texts {
     color: #404040;

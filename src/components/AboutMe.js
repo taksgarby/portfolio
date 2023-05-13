@@ -5,6 +5,7 @@ import React from 'react'
 import { BsGithub } from 'react-icons/bs';
 import {GrLinkedin} from 'react-icons/gr';
 import {SiAmazonaws} from 'react-icons/si';
+import {SiCisco} from 'react-icons/si'
 
 function AboutMe() {
   return (
@@ -46,6 +47,12 @@ function AboutMe() {
         <SiAmazonaws /> AWS Certified Cloud Practitioner</Card.Link>
         </div>
 
+        <div class="link-container">
+        <Card.Link class="cisco-link" href="https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity" target="_blank"> 
+        <SiCisco /> CISCO Introduction to Cybersecurity </Card.Link>
+        </div>
+        <div class="cisco-sub"><strong>(completed)</strong></div>
+
       </Card.Body>
     </Card>
 
@@ -79,7 +86,6 @@ function AboutMe() {
                 Currently I am:
             </p>
             <p class="aboutme-texts">
-            Taking <strong>CISCO Cybersecurity </strong>course<br/>
             Developing my project, <a href="#ifonly"><strong>If Only App</strong></a><br/>
             Working on a data analysis project at  <a href="https://www.scottishtecharmy.org/" target="_blank">
               <strong>Scottish Tech Army</strong></a><br/>

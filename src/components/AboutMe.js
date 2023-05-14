@@ -1,6 +1,5 @@
 import Card from 'react-bootstrap/Card';
 import './components.css';
-import Button from 'react-bootstrap/Button';
 import React from 'react'
 import { BsGithub } from 'react-icons/bs';
 import {GrLinkedin} from 'react-icons/gr';
@@ -86,7 +85,9 @@ function AboutMe() {
                 Currently I am:
             </p>
             <p class="aboutme-texts">
-            Developing my project, <a href="#ifonly"><strong>If Only App</strong></a><br/>
+            Developing <a href="#ifonly"><strong>If Only App (Java + JS + SQL)</strong></a><br/>
+            Working on <a href="https://github.com/taksgarby/Jardle" target="_blank"><strong>Jardle (Python)</strong></a>
+             - it is like Wordle, but for Japanese language learners.<br></br>
             Working on a data analysis project at  <a href="https://www.scottishtecharmy.org/" target="_blank">
               <strong>Scottish Tech Army</strong></a><br/>
             </p>

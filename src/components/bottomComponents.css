@@ -74,6 +74,15 @@ img {
     
 }
 
+.img6 img {
+    width: 16rem;
+    height: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 
 
 .sub-title {

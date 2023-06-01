@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import '../bottomComponents.css';
-import  WW from './WW.png'
+import  WWW from './WWW.png'
 import Badge from 'react-bootstrap/Badge';
 
 
@@ -12,7 +12,7 @@ function ProjectWW() {
       <Card.Body>
       <Card.Title className="text-center">Wisdom Works</Card.Title>
       <div class="img6">
-      <img src={WW} />
+      <img src={WWW} />
       </div>
   
       <div class="badge-container">

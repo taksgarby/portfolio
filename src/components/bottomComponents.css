@@ -108,6 +108,11 @@ img {
     font-weight: 500;
 }
 
+.project-text a{
+    text-decoration: none;
+    
+}
+
 .repo-container {
     display: flex;
     justify-content: space-evenly;

@@ -24,11 +24,11 @@ function ProjectWW() {
         Pair Project
       </Badge>{' '}
       <Card.Text class="project-text">
-      This is my fantasy business. I thought it would be fantastic if I could create a community-oriented career consultancy 
+      This is my fantasy business with <a href="https://www.linkedin.com/in/raquel-revelles-conde-a82387129/" target="_blank"> Raquel Revelles Conde</a>. 
+      We thought it would be fantastic if I could create a community-oriented career consultancy 
       specifically catered to women who have made the brave decision to change their careers in the middle of their lives. 
       I have created a UI using Figma and now I am planning to turn it into a JavaScript/Java/SQL project.
-      <a href="https://www.linkedin.com/in/raquel-revelles-conde-a82387129/" target="_blank"> Raquel Revelles Conde</a> has joined
-       the force and we are commited to create an exciting web app for people like us. 
+   
         </Card.Text>
 
         </div>  

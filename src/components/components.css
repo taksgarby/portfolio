@@ -17,6 +17,16 @@
     
 }
 
+.news {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.news a {
+    text-decoration: none;
+    color: #EC5800;
+}
+
 .h3 {
   
     color: #696969;

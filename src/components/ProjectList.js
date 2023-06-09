@@ -8,6 +8,7 @@ import ProjectRecord from "./projects/ProjectRecord";
 import ProjectIfOnly from "./projects/ProjectIfOnly";
 import ProjectWords from "./projects/ProjectWords";
 import ProjectWW from "./projects/ProjectWW";
+import ProjectMugs from "./projects/ProjectMugs";
 
 
 const ProjectList = () => {
@@ -19,12 +20,13 @@ const ProjectList = () => {
     <div class="project-list" >    
 
     <ProjectRecipe />
-    <ProjectOrgan />
+
     <ProjectRecord />
     <ProjectIfOnly />
     <ProjectWords />
     <ProjectWW />
-
+    <ProjectOrgan />
+    <ProjectMugs />
     </div>
 
 </>

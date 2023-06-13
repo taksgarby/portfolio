@@ -8,7 +8,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: left;
-
+   
 }
 
 
@@ -20,6 +20,8 @@
     font-weight: 400;
     margin-left: 2rem;
     margin-bottom: 2rem;
+
+
 }
 
 .project {

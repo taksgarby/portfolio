@@ -26,6 +26,9 @@ function ProjectMugs() {
       <Badge bg="danger">
         AI prompt
       </Badge>{' '}
+      <Badge bg="danger">
+        Bootstrap
+      </Badge>{' '}
       <Badge bg="secondary">
         Solo Project
       </Badge>{' '}

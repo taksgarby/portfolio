@@ -29,6 +29,12 @@ function ProjectMugs() {
       <Badge bg="danger">
         Bootstrap
       </Badge>{' '}
+      <Badge bg="danger">
+        E2E Testing
+      </Badge>{' '}
+      <Badge bg="danger">
+        Cypress
+      </Badge>{' '}
       <Badge bg="secondary">
         Solo Project
       </Badge>{' '}

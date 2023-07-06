@@ -4,7 +4,7 @@ import React from 'react'
 import { BsGithub } from 'react-icons/bs';
 import {GrLinkedin} from 'react-icons/gr';
 import {SiAmazonaws} from 'react-icons/si';
-import {SiCisco} from 'react-icons/si'
+import {SiCisco, SiRobotframework} from 'react-icons/si'
 
 function AboutMe() {
   return (
@@ -22,7 +22,7 @@ function AboutMe() {
         <button type="button" class="btn btn-info mb-2">Java</button>
         <button type="button" class="btn btn-info mb-2">JavaScript</button>
         <button type="button" class="btn btn-info mb-2">Python</button>
-        {/* <button type="button" class="btn btn-info mb-2">CSS</button> */}
+        <button type="button" class="btn btn-info mb-2">CSS</button>
         {/* </div>
         <div class="button-container-others"> */}
         <button type="button" class="btn btn-info mb-2">MySQL</button>
@@ -31,6 +31,7 @@ function AboutMe() {
         <button type="button" class="btn btn-info mb-2">Spring</button>
         <button type="button" class="btn btn-info mb-2">Agile</button>
         <button type="button" class="btn btn-info mb-2">TDD</button>
+        <button type="button" class="btn btn-info mb-2">Test Automation</button>
         </div>
 
         <div class="link-container">
@@ -50,7 +51,11 @@ function AboutMe() {
         <Card.Link class="cisco-link" href="https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity" target="_blank"> 
         <SiCisco /> CISCO Introduction to Cybersecurity </Card.Link>
         </div>
-        <div class="cisco-sub"><strong>(completed)</strong></div>
+
+        <div class="link-container">
+        <Card.Link class="robot-link" href="https://robotframework.org/rpa/" target="_blank"> 
+        <SiRobotframework /> Robocorp Robotic Process Automation Level 1 </Card.Link>
+        </div>
 
         <div class="news">
           Please visit my fictional e-commerce site, <a href="https://taksgarby.github.io/curiositymugs/" target="_blank">

@@ -55,7 +55,7 @@
     margin-top: 1rem;
     display: flex;
     justify-content: space-evenly;
-   
+
 }
 
 .github-link {
@@ -87,6 +87,12 @@
     font-size: 1.2rem;
     text-decoration: none;
     color: #18A8D8;
+}
+
+.robot-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #2a52be;
 }
 
 .cisco-sub {

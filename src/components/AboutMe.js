@@ -95,8 +95,8 @@ function AboutMe() {
             </p>
             <p class="aboutme-texts">
             Developing <a href="#ifonly"><strong>If Only App (Java + JS + SQL)</strong></a><br/>
-            Working on <a href="https://github.com/taksgarby/Jardle" target="_blank"><strong>Jardle (Python)</strong></a>
-             - it is like Wordle, but for Japanese language learners.<br></br>
+            Learning towards  <a href="https://github.com/taksgarby/RobotFramework_Level2" target="_blank"><strong>Robocorp Robotic Process Automation Level 2</strong></a>
+            <br></br>
             Working on a data analysis project at  <a href="https://www.scottishtecharmy.org/" target="_blank">
               <strong>Scottish Tech Army</strong></a><br/>
             </p>

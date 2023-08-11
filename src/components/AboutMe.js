@@ -54,7 +54,7 @@ function AboutMe() {
 
         <div class="link-container">
         <Card.Link class="robot-link" href="https://robotframework.org/rpa/" target="_blank"> 
-        <SiRobotframework /> Robocorp Robotic Process Automation Level 1 </Card.Link>
+        <SiRobotframework /> Robocorp Robotic Process Automation Level 2 </Card.Link>
         </div>
 
         <div class="news">
@@ -95,10 +95,10 @@ function AboutMe() {
             </p>
             <p class="aboutme-texts">
             Developing <a href="#ifonly"><strong>If Only App (Java + JS + SQL)</strong></a><br/>
-            Learning towards  <a href="https://github.com/taksgarby/RobotFramework_Level2" target="_blank"><strong>Robocorp Robotic Process Automation Level 2</strong></a>
+            Learning towards  <strong>Robocorp Robotic Process Automation Level 3</strong>
             <br></br>
-            Working on a data analysis project at  <a href="https://www.scottishtecharmy.org/" target="_blank">
-              <strong>Scottish Tech Army</strong></a><br/>
+            Tech support volunteering for  <a href="https://abilitynet.org.uk/" target="_blank">
+              <strong>AbilityNet</strong></a> and <a href="https://rnib.org.uk/" target="_blank"><strong>RNIB</strong></a><br/>
             </p>
              </div>
         </Card.Body>

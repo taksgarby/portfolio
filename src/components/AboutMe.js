@@ -99,6 +99,7 @@ function AboutMe() {
             <br></br>
             Tech support volunteering for  <a href="https://abilitynet.org.uk/" target="_blank">
               <strong>AbilityNet</strong></a> and <a href="https://rnib.org.uk/" target="_blank"><strong>RNIB</strong></a><br/>
+            Learning <strong>.NET </strong>and<strong> C# </strong>for my volunteer project
             </p>
              </div>
         </Card.Body>

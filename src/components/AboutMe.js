@@ -32,6 +32,11 @@ function AboutMe() {
         <button type="button" class="btn btn-info mb-2">Agile</button>
         <button type="button" class="btn btn-info mb-2">TDD</button>
         <button type="button" class="btn btn-info mb-2">Test Automation</button>
+        <button type="button" class="btn btn-info mb-2">AWS</button>
+        <button type="button" class="btn btn-info mb-2">Azure</button>
+        <button type="button" class="btn btn-info mb-2">C#</button>
+        <button type="button" class="btn btn-info mb-2">.NET</button>
+        <button type="button" class="btn btn-info mb-2">ETL</button>
         </div>
 
         <div class="link-container">

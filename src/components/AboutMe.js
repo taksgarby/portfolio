@@ -53,8 +53,8 @@ function AboutMe() {
         </div>
 
         <div class="link-container">
-        <Card.Link class="robot-link" href="https://robotframework.org/rpa/" target="_blank"> 
-        <SiRobotframework /> Robocorp Robotic Process Automation Level 2 </Card.Link>
+        <Card.Link class="robot-link" href="https://robocorp.com/docs/courses/work-data-management" target="_blank"> 
+        <SiRobotframework /> Robocorp Robotic Process Automation Level 3 </Card.Link>
         </div>
 
         <div class="news">
@@ -93,13 +93,11 @@ function AboutMe() {
             <p class="aboutme-headline">
                 Currently I am:
             </p>
-            <p class="aboutme-texts">
-            Developing <a href="#ifonly"><strong>If Only App (Java + JS + SQL)</strong></a><br/>
-            Learning towards  <strong>Robocorp Robotic Process Automation Level 3</strong>
-            <br></br>
-            Tech support volunteering for  <a href="https://abilitynet.org.uk/" target="_blank">
-              <strong>AbilityNet</strong></a> and <a href="https://rnib.org.uk/" target="_blank"><strong>RNIB</strong></a><br/>
-            Learning <strong>.NET </strong>and<strong> C# </strong>for my volunteer project
+            <p class="aboutme-texts">        
+            Tech support volunteer for  <a href="https://abilitynet.org.uk/" target="_blank">
+              <strong>AbilityNet</strong></a><br/>
+            Volunteer developer for <a href="https://rnib.org.uk/" target="_blank"><strong>RNIB</strong></a><br/>
+            Learning <strong>.NET </strong>, <strong> C# </strong> and <strong>Azure</strong> for my volunteer project
             </p>
              </div>
         </Card.Body>
